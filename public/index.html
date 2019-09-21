@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 移动端的适配 user-scalable不让用户进行缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <!-- BASE_URL 可以在根路由文件里修改 -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>vuecase</title>
+    <link rel="stylesheet" href="<%= BASE_URL %>css/common.css">
+
+    <title>商城首页</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but vuecase doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+
+    <!-- vue的组件都会渲染到这个app里 -->
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

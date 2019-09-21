@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+body{
+	border: none;
+	height: 100%;
+}
+
+#main{
+    flex: 1 0 auto;
+    margin-bottom: 120px;/*与底部菜单栏的高度一致*/
+}
+
+
+
+
